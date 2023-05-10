@@ -271,16 +271,18 @@ MonoBehaviour:
   waves:
   - name: wave 1
     spawnEnemy:
-    - enemy: {fileID: 2380252379660301641, guid: 594977a57d8fad748a11844283af878c, type: 3}
-      spawnPoint: {fileID: 344965269876546823}
     - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
-      spawnPoint: {fileID: 344965270302994468}
+      spawnPoint: {fileID: 344965270042701502}
     - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
-      spawnPoint: {fileID: 344965269553693322}
+      spawnPoint: {fileID: 344965269721465923}
+    - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
+      spawnPoint: {fileID: 344965268883561802}
+    - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
+      spawnPoint: {fileID: 344965269126023356}
     rate: 2
   - name: wave 2
     spawnEnemy:
-    - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
+    - enemy: {fileID: 2380252379660301641, guid: 594977a57d8fad748a11844283af878c, type: 3}
       spawnPoint: {fileID: 344965269876546823}
     - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
       spawnPoint: {fileID: 344965270302994468}
@@ -297,21 +299,33 @@ MonoBehaviour:
     rate: 2
   - name: wave 3
     spawnEnemy:
-    - enemy: {fileID: 5268058569768313175, guid: 1a018804525f98646a05d9bcaf92549c, type: 3}
+    - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
       spawnPoint: {fileID: 344965269876546823}
+    - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
+      spawnPoint: {fileID: 344965270302994468}
+    - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
+      spawnPoint: {fileID: 344965269553693322}
+    - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
+      spawnPoint: {fileID: 344965270042701502}
+    - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
+      spawnPoint: {fileID: 344965269721465923}
+    - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
+      spawnPoint: {fileID: 344965268883561802}
+    - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
+      spawnPoint: {fileID: 344965269126023356}
     rate: 2
   - name: wave 4
     spawnEnemy:
-    - enemy: {fileID: 5268058569768313175, guid: 1a018804525f98646a05d9bcaf92549c, type: 3}
+    - enemy: {fileID: 2380252379660301641, guid: 594977a57d8fad748a11844283af878c, type: 3}
       spawnPoint: {fileID: 344965269876546823}
     - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
       spawnPoint: {fileID: 344965270042701502}
     - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
       spawnPoint: {fileID: 344965269721465923}
     - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
-      spawnPoint: {fileID: 344965269126023356}
-    - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
       spawnPoint: {fileID: 344965268883561802}
+    - enemy: {fileID: 3725182000116542427, guid: a80aa0498d8c3344e94cb5201758c28d, type: 3}
+      spawnPoint: {fileID: 344965269126023356}
     rate: 2
   - name: wave 5
     spawnEnemy:

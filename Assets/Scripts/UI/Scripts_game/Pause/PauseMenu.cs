@@ -6,8 +6,8 @@ public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
-    public GameObject LeftStick;
-    public GameObject ButtonSouth;
+    /*public GameObject LeftStick;
+    public GameObject ButtonSouth;*/
 
 
     void Start()
@@ -57,8 +57,8 @@ public class PauseMenu : MonoBehaviour
 
     public void Resume()
     {
-        LeftStick.SetActive(true);
-        ButtonSouth.SetActive(true);
+        /*LeftStick.SetActive(true);
+        ButtonSouth.SetActive(true);*/
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
@@ -66,8 +66,8 @@ public class PauseMenu : MonoBehaviour
 
     void Pause()
     {
-        LeftStick.SetActive(false);
-        ButtonSouth.SetActive(false);
+        /*LeftStick.SetActive(false);
+        ButtonSouth.SetActive(false);*/
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;

@@ -2590,7 +2590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1c06793f519b8d41bb0ad441842d167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 150
+  maxHealth: 80
   sliderHealth: {fileID: 4883062115603657928}
 --- !u!1 &9015153845037476026
 GameObject:

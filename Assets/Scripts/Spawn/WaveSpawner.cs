@@ -24,8 +24,8 @@ public class WaveSpawner : MonoBehaviour
     public Wave[] waves;
     private int nextWave = 0;
     public GameObject PlayerWinner;
-    public GameObject LeftStick;
-    public GameObject ButtonSouth;
+    /*public GameObject LeftStick;
+    public GameObject ButtonSouth;*/
 
     public float timeBetweenWaves = 3f;
     public float waveCountdown;
@@ -73,8 +73,8 @@ public class WaveSpawner : MonoBehaviour
         if(nextWave + 1 > waves.Length - 1)
         {
             Time.timeScale = 0f;
-            LeftStick.SetActive(false);
-            ButtonSouth.SetActive(false);
+            /*LeftStick.SetActive(false);
+            ButtonSouth.SetActive(false);*/
             PlayerWinner.SetActive(true);
 
         }

@@ -1786,7 +1786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16f541b46d5c63e4e914f33489418f89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 150
   sliderHealth: {fileID: 0}
   Player: {fileID: 4755743569714430481}
 --- !u!1 &4937904323801424233
